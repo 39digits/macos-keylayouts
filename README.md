@@ -28,10 +28,10 @@ Open a terminal and run a sudo copy.
 sudo cp -R Microsoft\ Designer\ Compact.bundle /Library/Keyboard\ Layouts
 ```
 
-### Recommended Settings
+### Caveats
 
-The Microsoft Designer Compact keyboard also has a lock button which triggers a `Win + L` keypress. I couldn't find a way to override this so I usually add a custom lock shortcut in MacOS instead.
+The Microsoft Designer Compact keyboard also has a lock button which triggers a `Win + L` keypress (or `CMD + L` in MacOS). I couldn't find a way to override this to use the MacOS lock sequence of `CMD + Ctrl + Q`.
 
-Open Keyboard preferences and click through to the _Shortcuts_ tab. Click on _App Shortcuts_ and add a new shortcut named **Lock Screen** with `Cmd + L` as the shortcut.
+You could create an All Application shortcut to use `CMD + L` within keyboard preferences. Click through to the _Shortcuts_ tab and select _App Shortcuts_ and add a new shortcut named **Lock Screen** with `Cmd + L` as the shortcut. Now MacOS will lock when you press the corresponding Lock key on the Microsoft Designer Compact keyboard. This will conflict with Spotify's default Search shortcut though :/
 
-Now MacOS will lock when you press the corresponding Lock key.
+
