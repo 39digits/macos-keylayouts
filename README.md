@@ -18,7 +18,14 @@ The Input Source menu will let you select the relevant input source once you con
 
 ## Microsoft Designer Compact keyboard
 
-The Microsoft Designer Compact keyboard is your standard UK PC layout, however MacOS swaps the `` ` `` and `\` keys on this keyboard. This keylayout bundle simply remaps the codes for these keys including all modifiers and includes a beautiful Microsoft logo.
+The Microsoft Designer Compact keyboard bundle includes two keylayouts.
+
+- **Designer Compact** - This is the standard UK PC layout as shown on the keys.
+- **Designer Compact - ANSI Quotes** - This is similar to the UK PC layout except it switches the @ and " keys to be similar to US or all Mac keyboard layouts. Muscle memory is hard to break!
+
+Furthermore, MacOS swaps the `` ` `` and `\` keys on the Microsoft Designer Compact keyboard. Both of the provided keylayouts remaps the codes for these keys including all modifiers.
+
+The bundle also includes a beautiful Microsoft logo.
 
 ### Install Microsoft Designer Compact keylayout
 
@@ -33,5 +40,3 @@ sudo cp -R Microsoft\ Designer\ Compact.bundle /Library/Keyboard\ Layouts
 The Microsoft Designer Compact keyboard also has a lock button which triggers a `Win + L` keypress (or `CMD + L` in MacOS). I couldn't find a way to override this to use the MacOS lock sequence of `CMD + Ctrl + Q`.
 
 You could create an All Application shortcut to use `CMD + L` within keyboard preferences. Click through to the _Shortcuts_ tab and select _App Shortcuts_ and add a new shortcut named **Lock Screen** with `Cmd + L` as the shortcut. Now MacOS will lock when you press the corresponding Lock key on the Microsoft Designer Compact keyboard. This will conflict with Spotify's default Search shortcut though :/
-
-
