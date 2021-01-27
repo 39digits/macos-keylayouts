@@ -1,11 +1,11 @@
 # macOS Key Layouts for External Keyboards
 
-A collection of English keylayout bundles for macOS to properly map keys on external keyboards.
+A collection of English keylayout bundles for macOS.
 
 ## Install
 
 1. Download the repository or any individual keylayout bundles.
-2. Copy any relevant keylayout bundle(s) to `/Library/Keyboard Layouts`
+2. Copy keylayout bundle(s) to `/Library/Keyboard Layouts`
 3. Restart macOS
 4. Open the input sources setup by going to **System Preferences > Keyboard > Input Sources**
 5. Click on the [+] and select the installed bundle from the list to enable it.
@@ -22,7 +22,7 @@ The Input Source menu will let you select the relevant input source once you con
 
 The Microsoft Designer Compact keyboard bundle includes two keylayouts.
 
-- **Designer Compact** - This is the standard UK PC layout as shown on the keys.
+- **Designer Compact - PC** - This is the standard UK PC keyboard layout.
 - **Designer Compact - ANSI Quotes** - This is similar to the UK PC layout except it switches the @ and " keys to be similar to US or all Mac keyboard layouts. Muscle memory is hard to break!
 
 Here are the differences in table form.
@@ -31,8 +31,6 @@ Here are the differences in table form.
 | --------- | ---------------- | ----------------------- | ------------ |
 | Shift + ' | @                | "                       | "            |
 | Shift + 2 | "                | @                       | @            |
-
-Furthermore, macOS swaps the `` ` `` and `\` keys on the Microsoft Designer Compact keyboard. Both of the provided keylayouts remaps the codes for these keys including all modifiers.
 
 The bundle also includes a beautiful Microsoft logo.
 

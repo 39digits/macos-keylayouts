@@ -8,21 +8,21 @@
 	<string>Microsoft Designer Compact</string>
 	<key>CFBundleVersion</key>
 	<string>2.0</string>
-	<key>KLInfo_Designer Compact</key>
-	<dict>
-		<key>TICapsLockLanguageSwitchCapable</key>
-		<false/>
-		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.microsoftdesignercompact.designercompact</string>
-		<key>TISIntendedLanguage</key>
-		<string>en</string>
-	</dict>
 	<key>KLInfo_Designer Compact - ANSI Quotes</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.microsoftdesignercompact.designercompact-ansiquotes</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
+	<key>KLInfo_Designer Compact - PC</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.microsoftdesignercompact.designercompact-pc</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>
